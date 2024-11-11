@@ -1,0 +1,17 @@
+# main.py
+import tkinter as tk
+from button_utils import create_button
+
+def main():
+    root = tk.Tk()
+
+    # Konfigurasi warna dan transparansi
+    color_hex = "#78ABA8" # 50% transparansi
+
+    # Membuat tombol dengan gambar transparan
+    create_button(root, color_hex, text="tes")
+
+    root.mainloop()
+
+if __name__ == "__main__":
+    main()
